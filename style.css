@@ -1,0 +1,103 @@
+body{
+    background-color: blue;
+    background-image: url('https://source.unsplash.com/random/?programmer');
+
+}
+
+.u1{
+    background-color: aliceblue;
+    display: flex;
+    padding: 0% 22% ;
+    border-radius: 4px;
+}
+
+
+.l1{
+    padding:  0% 8%;
+    margin: 6px;
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+
+.li:hover{
+    cursor: pointer;
+    color: yellow;
+    text-decoration:dashed;
+}
+
+.u2{
+    display: grid;
+    padding: 2%;
+}
+    
+    .l2{
+        background-color: rgb(162, 247, 239);
+        margin: 2%;
+        border: 8px solid blue;
+        padding: 2px;
+        border-radius:4px;
+        /* padding: 12%; */
+        list-style-type:none;
+        grid-template-columns: repeat( 1fr,4 );
+        grid-template-rows: repeat(1fr,4 );
+        /* grid-template-rows: 12px; */
+    }
+
+    #l201{
+        
+        background-color: wheat;
+        margin: 2%;
+        border-radius:4px;
+        /* padding: 12%; */
+        list-style-type:none;
+        grid-template-columns: repeat( 1fr,4 );
+        grid-template-rows: repeat(1fr,4 );
+        height: 92px;
+        /* grid-template-rows: 12px; */
+    }
+
+
+    #l202{
+    list-style-type:none;
+    margin-right:12px;
+    }
+    #l202 img { 
+        width: 42px;
+        height:42px;
+
+    }
+
+    #l201 img { 
+        width: 72px;
+        height:72px;
+
+    }
+
+    /* #l201 span { 
+        font-size: 112px1;
+        text-align: center;
+        padding: 5px;
+    } */
+
+    #l201 h3 { 
+        font-size: 112px1;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+
+
+
+
+    /* FOOTER */
+
+footer{
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    border-bottom: 2px;
+    border-radius: 7px;
+    color: wheat;
+    padding-inline: 6px;
+}

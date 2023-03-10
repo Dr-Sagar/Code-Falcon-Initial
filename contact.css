@@ -1,0 +1,130 @@
+body{
+    background-color: blue;
+    background-image: url('https://source.unsplash.com/random/?programmer');
+
+}
+
+.u1{
+    background-color: aliceblue;
+    display: flex;
+    padding: 0% 22% ;
+    border-radius: 4px;
+}
+
+
+.l1{
+    padding:  0% 8%;
+    margin: 6px;
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+
+.l1:hover{
+    cursor: pointer;
+    color: yellow;
+    text-decoration:dashed;
+}
+
+.u2{
+    display: grid;
+    padding: 2%;
+}
+  
+
+
+
+
+
+#l201{
+        
+    background-color: wheat;
+    margin: 2%;
+    border-radius:4px;
+    /* padding: 12%; */
+    list-style-type:none;
+    grid-template-columns: repeat( 1fr,4 );
+    grid-template-rows: repeat(1fr,4 );
+    height: 92px;
+    /* grid-template-rows: 12px; */
+}
+
+
+#l202{
+list-style-type:none;
+margin-right:12px;
+}
+#l202 img { 
+    width: 42px;
+    height:42px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ip1{
+    /* padding: 12%; */
+    text-align:start;
+    margin: 5%;
+    padding-left: 23%;
+}
+
+.ip2{
+    /* padding: 12%; */
+    /* text-align:end; */
+    /* align-items: flex-end; */
+    /* align-content: flex-end; */
+    /* align-self: flex-end; */
+    margin: 5%;
+    /* padding-right: 10%; */
+    color: blue;
+}
+
+.fo1{
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+
+.fo1 input{
+    background-color: rgb(243, 210, 210);
+    border-radius: 5px;
+    color: black;
+    align-items:flex-end;
+    text-align: justify;
+    width: 74%;
+    margin: 2px;
+}
+
+
+
+
+
+.de0{
+text-align: center;
+}
+
+
+
+
+
+ /* FOOTER */
+
+ footer{
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    border-bottom: 2px;
+    border-radius: 7px;
+    color: wheat;
+    padding-inline: 6px;
+}

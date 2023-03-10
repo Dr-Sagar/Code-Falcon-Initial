@@ -1,0 +1,149 @@
+body{
+    background-color: blue;
+    background-image: url('https://source.unsplash.com/random/?programmer');
+    background-image: -o-repeating-linear-gradient(56);
+    opacity: 200%;
+
+}
+
+
+
+
+.navbar{
+    position: sticky;
+
+}
+
+.u1{
+    background-color: aliceblue;
+    display: flex;
+    padding: 0% 22% ;
+    border-radius: 4px;
+    position: sticky;
+}
+
+
+.l1{
+    padding:  0% 8%;
+    margin: 6px;
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+
+.li:hover{
+    cursor: pointer;
+    color: yellow;
+    text-decoration:dashed;
+}
+
+.u2{
+    display: grid;
+    padding: 2%;
+}
+    
+    .l2{
+        background-color: aquamarine;
+        margin: 2%;
+        border-radius:4px;
+        /* padding: 12%; */
+        list-style-type:none;
+        grid-template-columns: repeat( 1fr,4 );
+        grid-template-rows: repeat(1fr,4 );
+        /* grid-template-rows: 12px; */
+    }
+
+    #l201{
+        
+        background-color: wheat;
+        margin: 2%;
+        border-radius:4px;
+        /* padding: 12%; */
+        list-style-type:none;
+        grid-template-columns: repeat( 1fr,4 );
+        grid-template-rows: repeat(1fr,4 );
+        height: 92px;
+        /* grid-template-rows: 12px; */
+    }
+
+
+    #l202{
+    list-style-type:none;
+    margin-right:12px;
+    }
+    #l202 img { 
+        width: 42px;
+        height:42px;
+
+    }
+
+    #l201 img { 
+        width: 72px;
+        height:72px;
+
+    }
+
+    #l201 span { 
+        font-size: 112px1;
+        text-align: center;
+        padding: 25px;
+    }
+
+
+
+
+/* SETTINGS BOX */
+
+.box{
+    background-color: blanchedalmond;
+    border:  2px solid black;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 366px;
+    align-items: center;
+    transition:all 1s ease-in-out;
+}
+
+
+.box:hover{
+    
+    /*transform: rotate(90deg);*/
+    /* transform: skew(90deg); */
+    /* transform: scale(2); */
+    transform: translateY( 123px);
+    /* transform: translate( 123px); */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    /* FOOTER */
+
+footer{
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    border-bottom: 2px;
+    border-radius: 7px;
+    color: wheat;
+    padding-inline: 6px;
+}
+
+
